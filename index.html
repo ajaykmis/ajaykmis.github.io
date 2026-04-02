@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coders Gym - LeetCode Companion App</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #1a1a2e; color: #e0e0e0; }
+    .hero { text-align: center; padding: 60px 20px 40px; }
+    .hero img.icon { width: 100px; height: 100px; border-radius: 22px; margin-bottom: 16px; }
+    .hero h1 { font-size: 36px; color: #f5a623; margin-bottom: 8px; }
+    .hero p.tagline { font-size: 18px; color: #aaa; margin-bottom: 24px; }
+    .hero .badges { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .hero .badge { display: inline-block; padding: 8px 20px; border-radius: 20px; background: #f5a623; color: #1a1a2e; font-weight: 600; text-decoration: none; font-size: 14px; }
+    .hero .badge.secondary { background: transparent; border: 2px solid #f5a623; color: #f5a623; }
+    .section { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+    .section h2 { font-size: 28px; color: #f5a623; margin-bottom: 20px; text-align: center; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 40px; }
+    .feature { background: #16213e; border-radius: 12px; padding: 24px; }
+    .feature h3 { color: #f5a623; margin-bottom: 8px; font-size: 18px; }
+    .feature p { color: #aaa; font-size: 14px; line-height: 1.5; }
+    .screenshots { display: flex; gap: 16px; overflow-x: auto; padding: 20px 0; scroll-snap-type: x mandatory; }
+    .screenshots img { height: 500px; border-radius: 16px; scroll-snap-align: start; box-shadow: 0 8px 30px rgba(0,0,0,0.4); }
+    .links { text-align: center; padding: 40px 20px; border-top: 1px solid #333; }
+    .links a { color: #f5a623; text-decoration: none; margin: 0 16px; font-size: 14px; }
+    .links a:hover { text-decoration: underline; }
+    footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Coders Gym</h1>
+    <p class="tagline">Your mobile companion for LeetCode practice</p>
+    <div class="badges">
+      <a href="#screenshots" class="badge">View Screenshots</a>
+      <a href="codersgym-privacy-policy.html" class="badge secondary">Privacy Policy</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Daily Challenges</h3>
+        <p>Stay on track with LeetCode's daily challenge, delivered right to your home screen with a countdown timer.</p>
+      </div>
+      <div class="feature">
+        <h3>Built-in Code Editor</h3>
+        <p>Write and submit code directly from your phone with syntax highlighting, monospace fonts, and multiple language support.</p>
+      </div>
+      <div class="feature">
+        <h3>Problem Explorer</h3>
+        <p>Browse thousands of coding problems with filters by difficulty, topic, and sort options.</p>
+      </div>
+      <div class="feature">
+        <h3>Profile & Stats</h3>
+        <p>Track your progress with detailed statistics, contest ratings, and solve history.</p>
+      </div>
+      <div class="feature">
+        <h3>Coding Toolkit</h3>
+        <p>Access contests, problem sheets, bookmarked problems, community discussions, and more.</p>
+      </div>
+      <div class="feature">
+        <h3>Dark Theme</h3>
+        <p>Easy on the eyes with a polished dark interface designed for focused coding sessions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="screenshots">
+    <h2>Screenshots</h2>
+    <div class="screenshots">
+      <img src="screenshots/01_home.png" alt="Home Screen">
+      <img src="screenshots/02_explore.png" alt="Explore Problems">
+      <img src="screenshots/03_question_detail.png" alt="Question Detail">
+      <img src="screenshots/04_code_editor.png" alt="Code Editor">
+      <img src="screenshots/05_profile.png" alt="Profile Stats">
+      <img src="screenshots/06_settings.png" alt="Settings">
+    </div>
+  </div>
+
+  <div class="links">
+    <a href="codersgym-privacy-policy.html">Privacy Policy</a>
+    <a href="mailto:support@hourproof.app">Contact Support</a>
+  </div>
+
+  <footer>
+    &copy; 2026 Coders Gym. This app is not affiliated with LeetCode. All LeetCode content belongs to LeetCode LLC.
+  </footer>
+</body>
+</html>
